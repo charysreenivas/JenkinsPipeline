@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Devlopment') {
             steps {
-                echo 'I'm DevOps'
+                echo 'Im DevOps'
             }
         }
         stage('QA') {
