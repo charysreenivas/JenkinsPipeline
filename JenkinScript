@@ -1,0 +1,31 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('Devlopment') {
+            steps {
+                echo 'I'm DevOps'
+            }
+        }
+        stage('QA') {
+            steps {
+                echo 'Testing'
+            }
+        }
+        stage('Staging') {
+            steps {
+                echo 'Staging Testing'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Production Deployed'
+            }
+        }
+    }
+}
